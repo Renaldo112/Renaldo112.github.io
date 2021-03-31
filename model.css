@@ -6,14 +6,17 @@
 html
   {font-size:62.5%;}
 
-  body {margin: 0 auto;
-    max-width: 145rem;
-    min-width: 320px;
+  body {/*margin: 0 auto;
+    /*max-width: 145rem;
+    min-width: 320px;*/
     background-image: url(https://images.unsplash.com/photo-1498982261566-1c28c9cf4c02?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2734&q=80);  
     background-size: cover;
-    background-position:center;
+    background-position:center ;
     background-repeat: no-repeat;
-    height: 100vh;
+    background-attachment: local;
+    
+    
+    
     }
     
   
@@ -182,8 +185,8 @@ transition: transform .5s ease ;
     
   @media (max-width:1103px){ 
   
-  .contain1,.contain2 {
-   padding: 0;
+.contain1,.contain2 {
+   padding: 0 2%;
     
     }
     
@@ -315,7 +318,10 @@ height:55rem;
   
 
   }
+  .aboutus-img {
 
+overflow: hidden;  
+  }
 
 
   /********4thpage*******/
@@ -386,9 +392,6 @@ input {
 }
 
 
-
-
-  
   
 
 
