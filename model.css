@@ -232,8 +232,8 @@ transition: transform .5s ease ;
       border-bottom:1px solid white;
     }
 
-     .container1 {
-       flex-wrap: wrap;
+     .container1 {f;
+       
      }
         
     }
@@ -279,7 +279,7 @@ transition: transform .5s ease ;
 
 /************thirdpage****/
 
-.container1{
+.container1{border: 1px solid black;
   margin: auto;
 display: flex;
 
@@ -297,7 +297,7 @@ text{
   color:rgb(236, 226, 226);
   text-align: center;
   font-size: 1.3rem;
-  width: 39%;
+  width: 44%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -320,7 +320,7 @@ width: 100%;
   }
 
   .aboutus-img {
-width:39%;
+width:44%;
 overflow: hidden;
 height: auto;
 
@@ -396,3 +396,18 @@ input {
   outline: none;
 
 }
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
