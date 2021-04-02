@@ -281,11 +281,9 @@ transition: transform .5s ease ;
 
 .container1{
   margin: auto;
-display: flex;
-
-justify-content: center;
-
-width:90%;
+  display: flex;
+  justify-content: center;
+  width:90%;
  
  } 
  
