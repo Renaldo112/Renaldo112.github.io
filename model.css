@@ -279,7 +279,7 @@ transition: transform .5s ease ;
 
 /************thirdpage****/
 
-.container1{border: 1px solid black;
+.container1{
   margin: auto;
 display: flex;
 
