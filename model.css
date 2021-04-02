@@ -232,7 +232,8 @@ transition: transform .5s ease ;
       border-bottom:1px solid white;
     }
 
-     .container1 {f;
+     .container1 {
+    
        
      }
         
@@ -281,9 +282,11 @@ transition: transform .5s ease ;
 
 .container1{
   margin: auto;
-  display: flex;
-  justify-content: center;
-  width:90%;
+display: flex;
+
+justify-content: center;
+
+width:100%;
  
  } 
  
@@ -394,8 +397,6 @@ input {
   outline: none;
 
 }
-
-
 
 
   
