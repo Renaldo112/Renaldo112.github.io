@@ -110,7 +110,7 @@ li a:hover {
 
 @media (max-width:350px){
 
-  nav li{ margin-left:3rem ;}
+  nav li{ margin-left:7.59vh ;}
 
 
 }
@@ -267,7 +267,7 @@ transition: transform .5s ease ;
 
      .firstpage-text {
        
-       font-size:12rem;
+       font-size: 15rem;
        width: 43rem;
        
        
