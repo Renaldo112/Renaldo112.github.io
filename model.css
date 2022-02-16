@@ -6,9 +6,12 @@
 html
   {font-size:62.5%;}
 
-  body {margin: 0 auto;
-    /*max-width: 145rem;
-    min-width: 320px;*/
+
+  body {
+    /*max-width: 145rem;*/
+    
+
+ 
     background-image: url(https://images.unsplash.com/photo-1498982261566-1c28c9cf4c02?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2734&q=80);  
     background-size: cover;
     background-position:center ;
@@ -20,33 +23,54 @@ html
     }
     
   
-  
 
 a {
   color: black;
   text-decoration: none;}
 
 nav  {
-  font-size: 1.8rem;
+  width: 100%;
+  font-size: 1.6rem;
   background-color: rgba(128, 128, 128, 0.205);
   height: 6rem;
   display:flex;
   justify-content:space-between;
   align-items: center;
-  padding:0 4.35vh;
-   width: 100%;
+  
+   
    
 }
-section a {
+
+
+.SkiahModels{
+
+
   color: white;
+  
+margin-left: 2rem;
 }
+
+.SkiahModels a {
+     
+     color: white;
+     
+}
+
+
 nav ul { 
+
   list-style: none;
   display: flex;
-
+  margin-right: 5rem ;
+  
+  
 }
 nav li {
-margin-left:6rem ; 
+
+ 
+margin-left:50px ; 
+
+
 
 } 
 
@@ -56,9 +80,13 @@ h1 {
   font-family: 'Lato', sans-serif;
   margin-top: 2rem;
   margin-left: 2rem;
-  line-height: 13rem;
+  line-height: 120px;
   color:white;
-  font-size: 14rem;
+
+  font-size: 11rem;
+
+  
+
   /*width: 74%;*/
 }
 
@@ -66,16 +94,18 @@ h1 {
 
 h2 {
   font-family: 'Lato', sans-serif;
-  font-size: 11rem;
+  font-size: 10rem;
   margin-left: 2rem;
   font-weight: 300;
 }
 
-.firstpage-text {
+
+.OurAgency-text {
+
   color: white;
-  width: 36rem;
+  width: 26rem;
   margin-left: 2rem;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 
@@ -85,7 +115,7 @@ button {
   border: 1px solid white;
   margin-top: 2rem;
   margin-left: 2rem;
-  width: 13rem;
+  width: 25%;
   height: 4rem;
   background-color: transparent;
 }
@@ -108,12 +138,12 @@ li a:hover {
   color: grey;
 }
 
-@media (max-width:350px){
-
-  nav li{ margin-left:7.59vh ;}
 
 
-}
+
+  
+
+
 /**********************Second Page****************/
 
 
@@ -189,31 +219,12 @@ transition: transform .5s ease ;
 
 
     
-    
+
    
-   
-
-   @media (max-width:915px){
-
-      html {
-        font-size:52.5%;}
-    }
-    
-    @media (max-width:900px){
-      .container1 {
-        
-        
-      }
-
-
-    }
-
-
         
     @media (max-width:797px){
 
-      html {
-        font-size:52.5%;}
+      
     }
   
     @media (max-width:668px){
@@ -243,56 +254,29 @@ transition: transform .5s ease ;
   
     @media (max-width:503px){
       
-      html {
-         font-size: 48.5%;}
+      
       
        h1{
-         line-height:8rem ;
+         font-size: 9rem;
+         line-height: 77px;
        }
-
-    
-    
+      
+    h2{
+      font-size: 7rem;
+    }
+     nav li {
+       margin-left: 6px;
+     }
     
       }
-    
-  
-    @media  (max-width:414px){
-    
-     html{font-size:30%;
-    }
-     
-      
-      
-      
 
-     .firstpage-text {
-       
-       font-size: 8rem;
-       width: 43rem;
-       
-       
-      }
-
-      button {
-        font-size:3.7rem ;
+      @media (max-width:449px){
+         
       }
   
-    
-      
-    }
-    @media  (max-width:375px) {
-    }
-
       
     
-     
-  
-
-
-
-
-
-
+    
 
 
 /************thirdpage****/
@@ -369,11 +353,8 @@ height: auto;
     display: flex;
    justify-content: space-around;
    margin-bottom: 1rem;
-   
-   
-  
-  
-  
+
+
   
   }
 
