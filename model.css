@@ -6,10 +6,7 @@
 html
   {font-size:62.5%;}
 
-  body {
-    display: flex;
-    flex-direction: column
-    ;
+  body {    
     /*max-width: 145rem;*/
     height: 100vh;
     background-image: url(https://images.unsplash.com/photo-1498982261566-1c28c9cf4c02?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2734&q=80); 
@@ -21,7 +18,17 @@ html
     
     }
 
-    
+    .firstpage{
+         
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding-top:30px ;
+          margin-top: 40px;
+          padding-left: 20px;
+          
+          
+    }
     
   
 
@@ -74,11 +81,10 @@ margin-left:50px ;
 
 h1 {
   font-family: 'Lato', sans-serif;
-  margin-top: 2rem;
-  margin-left: 2rem;
-  line-height: 120px;
+  
+  line-height: 109px;
   color:white;
-  font-size: 11rem;
+  font-size: 12rem;
   
 }
 
@@ -86,16 +92,16 @@ h1 {
 
 h2 {
   font-family: 'Lato', sans-serif;
-  font-size: 10rem;
-  margin-left: 2rem;
+  font-size: 8rem;
   font-weight: 300;
+  color: rgb(29, 23, 23);
 }
 
 .OurAgency-text {
   color: white;
   width: 30rem;
-  margin-left: 2rem;
   font-size: 1.5rem;
+  margin-top: 2rem;
 }
 
 
@@ -103,9 +109,8 @@ button {
   
   color:white;
   border: 1px solid white;
-  margin-top: 2rem;
-  margin-left: 2rem;
-  width: 15%;
+  margin-top: 3rem;
+  width: 120px;
   height: 4rem;
   background-color: transparent;
 }
@@ -118,12 +123,12 @@ button a {
 
 @media  (max-width:600px){
 
-  h1{
+  /*h1{
     color: lightskyblue;
   }
+*/
+
 }
-
-
 li a:hover {
   color: grey;
 }
@@ -244,7 +249,7 @@ transition: transform .5s ease ;
       
       
        h1{
-         font-size: 9rem;
+         font-size: 8rem;
          line-height: 77px;
        }
       
@@ -259,6 +264,15 @@ transition: transform .5s ease ;
 
       @media (max-width:449px){
          
+
+        h1{
+          font-size: 6rem;
+          line-height: 55px;
+        }
+
+        h2{
+          font-size: 5rem;
+        }
       }
     
   
