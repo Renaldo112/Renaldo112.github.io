@@ -8,10 +8,15 @@ html {
   font-size:62.5%;
 }
 
+
   body {    
+
+ 
     /*max-width: 145rem;*/
+
     height: 100vh;
     background-image: url(https://images.unsplash.com/photo-1498982261566-1c28c9cf4c02?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2734&q=80); 
+
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -51,7 +56,10 @@ nav  {
    
 }
 
+
 .SkiahModels{
+
+
   color: white;
   
 margin-left: 2rem;
@@ -73,8 +81,10 @@ nav ul {
   
 }
 nav li {
+
  
 margin-left:50px ; 
+
 
 
 } 
@@ -86,8 +96,12 @@ h1 {
   
   line-height: 109px;
   color:white;
+
   font-size: 12rem;
+
   
+
+
 }
 
 
@@ -99,10 +113,15 @@ h2 {
   color: rgb(29, 23, 23);
 }
 
+
 .OurAgency-text {
+
   color: rgb(255, 255, 255);
+
+  
+
   width: 30rem;
-  font-size: 2.1rem;
+  font-size: 3.1rem;
   margin-top: 2rem;
 }
 
@@ -136,6 +155,9 @@ li a:hover {
 }
 
 
+
+
+  
 
 
 /**********************Second Page****************/
@@ -214,7 +236,7 @@ transition: transform .5s ease ;
 
     
 
-
+   
         
     @media (max-width:797px){
 
@@ -281,15 +303,10 @@ transition: transform .5s ease ;
 
         }
       }
-    
   
-    
-      
-
       
     
     
-
 
 
 /************thirdpage****/
@@ -366,6 +383,8 @@ height: auto;
     display: flex;
    justify-content: space-around;
    margin-bottom: 1rem;
+
+
   
   }
 
@@ -409,18 +428,4 @@ input {
   outline: none;
 
 }
-
-
-   
-
-
-  
-
-
-
-
-
-
-
-
 
