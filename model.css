@@ -100,7 +100,7 @@ h2 {
 }
 
 .OurAgency-text {
-  color: white;
+  color: rgb(255, 255, 255);
   width: 30rem;
   font-size: 2.1rem;
   margin-top: 2rem;
@@ -274,6 +274,11 @@ transition: transform .5s ease ;
 
         h2{
           font-size: 5rem;
+        }
+
+        .OurAgency-text{
+          font-size: 4.2rem;
+
         }
       }
     
