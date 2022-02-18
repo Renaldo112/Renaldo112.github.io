@@ -113,9 +113,10 @@ button {
   color:white;
   border: 1px solid white;
   margin-top: 3rem;
-  width: 120px;
-  height: 2.5rem;
+  width: 140px;
+  height: 3rem;
   background-color: transparent;
+  font-size: 15px;
 }
 
 button a {
@@ -173,7 +174,7 @@ padding: 0 11rem;
 .contain2_text4 {
   
 text-align: center;
-background-color: grey;
+background-color: rgb(128, 128, 128);
 width: 50%;
 display: flex;
 align-items: center;
@@ -182,11 +183,6 @@ font-size: 13px;
   
 }
 
-#model-bio{
-
-  
-
-}
  
 img:hover {
 transform: scale(1.2);
@@ -342,7 +338,7 @@ height: auto;
   }
 
 
-  /********4thpage*******/
+  /********contactpage*******/
 
   .contact-us{
     color: white;
@@ -352,49 +348,57 @@ height: auto;
 
   }
   main{ 
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.897);
   margin:auto ;
-  background-color:rgba(128, 128, 128, 0.918);
-  max-width: 70%;
-  min-width: 15%;
+  background-color:rgba(128, 128, 128, 0.274);
+  max-width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 19px;
-  padding-bottom: 60px;
+  
+  height: 70%;
   
   
   }
   span{
     color: white;
-    font-size: 12px;
+    font-size: 13px;
+    
   }
 
 
   .Adress-inquiries-box {
     
     text-align: center;
-    font-size: 13px;
+    font-size:11px;
     align-items: center;
     width: 100%;
     display: flex;
    justify-content: space-around;
-   margin-bottom: 1rem;
+   flex-wrap: wrap;
+   
+  
+  
   
   }
 
   .BookModel-BecomeModel{
     text-align: center;
-    font-size: 13px;
+    font-size: 11px;
     width:100%;
     display: flex;
     justify-content: space-around;
     margin-bottom: .5rem;
+    flex-wrap: wrap;
+    
     }
 
     .Book-A-Model{
       color: white;
-      font-size: 14px;
+      font-size: 13px;
+      margin-bottom: 3px;
+      
+      
     }
 
 
@@ -402,7 +406,9 @@ height: auto;
     .Become-A-Model{
 
       color: white;
-      font-size: 14px;
+      font-size: 13px;
+      margin-bottom: 3px;
+     
     }
 
 
@@ -418,7 +424,7 @@ height: auto;
 }
 
 h5{
-  font-size: 14px;
+  font-size: 13px;
   color:white;
 }
 
